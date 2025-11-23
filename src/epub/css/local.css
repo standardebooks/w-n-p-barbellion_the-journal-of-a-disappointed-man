@@ -58,6 +58,23 @@ section[epub|type~="epigraph"] > *{
 }
 /* End full-page epigraphs */
 
+/* Begin verse CSS */
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	padding-left: 1em;
+	text-indent: -1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+/* End verse CSS */
+
 header{
 	font-variant: small-caps;
 	margin: 1em;
@@ -71,4 +88,17 @@ header{
 
 [epub|type~="z3998:diary-entry"]{
 	margin-top: 1em;
+}
+
+#entry-1913-2-16 > p:last-of-type,
+#entry-1915-11-08 > p:last-of-type,
+#entry-1917-3-2 > div > p:last-of-type{
+	font-style: italic;
+	text-align: center;
+	text-indent: 0;
+}
+
+#part-3-3 > p:last-of-type{
+	text-align: center;
+	text-indent: 0;
 }
