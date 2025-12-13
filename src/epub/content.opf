@@ -62,10 +62,10 @@
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<dc:contributor id="writer-of-introduction">H. G. Wells</dc:contributor>
-		<meta property="file-as" refines="#artist">Wells, H. G.</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/H._G._Wells</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n79063613</meta>
-		<meta property="role" refines="#artist" scheme="marc:relators">win</meta>
+		<meta property="file-as" refines="#writer-of-introduction">Wells, H. G.</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#writer-of-introduction">https://en.wikipedia.org/wiki/H._G._Wells</meta>
+		<meta property="se:url.authority.nacoaf" refines="#writer-of-introduction">http://id.loc.gov/authorities/names/n79063613</meta>
+		<meta property="role" refines="#writer-of-introduction" scheme="marc:relators">win</meta>
 		<dc:contributor id="artist">Odilon Redon</dc:contributor>
 		<meta property="file-as" refines="#artist">Redon, Odilon</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Odilon_Redon</meta>
