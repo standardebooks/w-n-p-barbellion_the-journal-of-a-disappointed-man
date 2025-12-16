@@ -77,7 +77,6 @@ abbr[epub|type~="se:era"]{
 header{
 	font-variant: small-caps;
 	margin: 1em;
-	text-align: center;
 }
 
 footer{
@@ -122,12 +121,12 @@ ul{
 	text-indent: 0;
 }
 
-#entry-1916-12-31 > div > blockquote > header > p:nth-of-type(2){
+#entry-1916-12-31 > div > blockquote > header > p span:nth-of-type(2){
 	padding-left: 1em;
 	text-indent: -1em;
 }
 
-#entry-1916-12-31 > div > blockquote > header > p:last-of-type{
+#entry-1916-12-31 > div > blockquote > header > p span:last-of-type{
 	padding-left: 4em;
 	text-indent: -1em;
 }

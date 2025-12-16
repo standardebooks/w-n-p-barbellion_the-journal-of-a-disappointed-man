@@ -8,10 +8,6 @@
 	</file>
 	<file path="part-3.xhtml">
 		<ignore>
-			<code>t-003</code>
-			<reason>Quotes can be omitted.</reason>
-		</ignore>
-		<ignore>
 			<code>y-003</code>
 			<reason>No period in scans.</reason>
 		</ignore>
