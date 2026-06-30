@@ -1,0 +1,1 @@
+In the scans, the entry between January 2 and January 30, 1915 is labelled as August 7. After verifying that this is not a repeated entry, this has been relabeled as January 7. The entry for January 30, 1915 appears before the one for January 19. This has been left as is. There are two entries for August 8, 1916. This has also been left as is.

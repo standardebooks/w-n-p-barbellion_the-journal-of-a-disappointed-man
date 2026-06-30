@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/w-n-p-barbellion/the-journal-of-a-disappointed-man</dc:identifier>
 		<dc:date>2025-12-16T22:01:09Z</dc:date>
 		<meta property="dcterms:modified">2025-12-16T22:01:09Z</meta>
 		<dc:rights>The source text and artwork in this ebook are believed to be in the United States public domain; that is, they are believed to be free of copyright restrictions in the United States. They may still be copyrighted in other countries, so users located outside of the United States must check their local laws before using this ebook. The creators of, and contributors to, this ebook dedicate their contributions to the worldwide public domain via the terms in the [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/).</dc:rights>
+		<meta property="rdf:type">http://schema.org/Book</meta>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
-		<meta property="se:url.homepage" refines="#publisher">https://standardebooks.org/</meta>
+		<link href="https://standardebooks.org/" refines="#publisher" rel="schema:url"/>
 		<meta property="role" refines="#publisher" scheme="marc:relators">bkd</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">mdc</meta>
 		<meta property="role" refines="#publisher" scheme="marc:relators">pbl</meta>
 		<dc:contributor id="type-designer">The League of Moveable Type</dc:contributor>
 		<meta property="file-as" refines="#type-designer">League of Moveable Type, The</meta>
-		<meta property="se:url.homepage" refines="#type-designer">https://www.theleagueofmoveabletype.com/</meta>
+		<link href="https://www.theleagueofmoveabletype.com/" refines="#type-designer" rel="schema:url"/>
 		<meta property="role" refines="#type-designer" scheme="marc:relators">tyd</meta>
 		<meta id="conformance-statement" property="dcterms:conformsTo">EPUB Accessibility 1.1 - WCAG 2.2 Level AA</meta>
 		<meta property="a11y:certifiedBy" refines="#conformance-statement">Standard Ebooks</meta>
@@ -41,7 +42,7 @@
 		<meta property="term" refines="#subject-3">Unknown</meta>
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">Unknown</meta>
-		<meta property="se:subject">Nonfiction</meta>
+		<meta property="schema:genre">Nonfiction</meta>
 		<dc:description id="description">A young naturalist with multiple sclerosis describes his life and love of nature.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;The budding naturalist &lt;a href="https://standardebooks.org/ebooks/w-n-p-barbellion"&gt;W. N. P. Barbellion&lt;/a&gt; begins keeping a journal at the age of thirteen. Curious, enthusiastic, and clever, he lives a happy life punctuated by periods of health problems. As he grows up, he earns recognition as a promising naturalist, but his health scares become more frequent and more severe. He’s eventually diagnosed with a fatal, unnamed illness, which today we know to be multiple sclerosis.&lt;/p&gt;
@@ -49,31 +50,32 @@
 			&lt;p&gt;Barbellion is in reality a pen name for Bruce Frederick Cummings, who died two years after the publication of these journals. When this book was published, his real identity was unknown, and early reviewers thought it to be a work of fiction penned by &lt;a href="https://standardebooks.org/ebooks/h-g-wells"&gt;&lt;abbr&gt;H. G.&lt;/abbr&gt; Wells&lt;/a&gt;, who wrote the introduction to the first edition.&lt;/p&gt;
 			&lt;p&gt;Though not widely read today, it earned immediate praise and generated strong sales. In the years since it has garnered much additional critical praise, with one more recent reviewer comparing it to the diaries of &lt;a href="https://standardebooks.org/ebooks/franz-kafka"&gt;Franz Kafka&lt;/a&gt;, and another calling it simply “the greatest diary a man has written.”&lt;/p&gt;
 		</meta>
-		<meta property="se:production-notes">In the scans, the entry between January 2 and January 30, 1915 is labelled as August 7. After verifying that this is not a repeated entry, this has been relabeled as January 7. The entry for January 30, 1915 appears before the one for January 19. This has been left as is. There are two entries for August 8, 1916. This has also been left as is.</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/39585</dc:source>
 		<dc:source>https://archive.org/details/journalofdisappo00barbuoft</dc:source>
-		<meta property="se:word-count">98616</meta>
-		<meta property="se:reading-ease.flesch">71.44</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Journal_of_a_Disappointed_Man</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/w-n-p-barbellion_the-journal-of-a-disappointed-man</meta>
+		<meta property="schema:wordCount">98616</meta>
+		<meta property="schema:educationalLevel">71.44</meta>
+		<link href="https://en.wikipedia.org/wiki/The_Journal_of_a_Disappointed_Man" rel="schema:sameAs"/>
+		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
+		<link href="https://github.com/standardebooks/w-n-p-barbellion_the-journal-of-a-disappointed-man" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">W. N. P. Barbellion</dc:creator>
 		<meta property="file-as" refines="#author">Barbellion, W. N. P.</meta>
-		<meta property="se:name.person.full-name" refines="#author">Wilhelm Nero Pilate Barbellion</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/W._N._P._Barbellion</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n84058856</meta>
+		<meta property="schema:alternateName" refines="#author">Wilhelm Nero Pilate Barbellion</meta>
+		<link href="https://en.wikipedia.org/wiki/W._N._P._Barbellion" refines="#author" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n84058856.html" refines="#author" rel="schema:sameAs"/>
 		<meta property="role" refines="#author" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="writer-of-introduction">H. G. Wells</dc:contributor>
 		<meta property="file-as" refines="#writer-of-introduction">Wells, H. G.</meta>
-		<meta property="se:name.person.full-name" refines="#writer-of-introduction">Herbert George Wells</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#writer-of-introduction">https://en.wikipedia.org/wiki/H._G._Wells</meta>
-		<meta property="se:url.authority.nacoaf" refines="#writer-of-introduction">http://id.loc.gov/authorities/names/n79063613</meta>
+		<meta property="schema:alternateName" refines="#writer-of-introduction">Herbert George Wells</meta>
+		<link href="https://en.wikipedia.org/wiki/H._G._Wells" refines="#writer-of-introduction" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n79063613.html" refines="#writer-of-introduction" rel="schema:sameAs"/>
 		<meta property="role" refines="#writer-of-introduction" scheme="marc:relators">win</meta>
 		<dc:contributor id="artist">Odilon Redon</dc:contributor>
 		<meta property="file-as" refines="#artist">Redon, Odilon</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Odilon_Redon</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n50046104</meta>
+		<link href="https://en.wikipedia.org/wiki/Odilon_Redon" refines="#artist" rel="schema:sameAs"/>
+		<link href="https://id.loc.gov/authorities/names/n50046104.html" refines="#artist" rel="schema:sameAs"/>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Marc D’Hooghe</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">D’Hooghe, Marc</meta>
@@ -88,8 +90,8 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
 		<dc:contributor id="producer-2">David Reimer</dc:contributor>
 		<meta property="file-as" refines="#producer-2">Reimer, David</meta>
-		<meta property="se:url.homepage" refines="#producer-2">https://github.com/dajare</meta>
-		<meta property="se:url.authority.nacoaf" refines="#producer-2">http://id.loc.gov/authorities/names/n92075987</meta>
+		<link href="https://github.com/dajare" refines="#producer-2" rel="schema:url"/>
+		<link href="https://id.loc.gov/authorities/names/n92075987.html" refines="#producer-2" rel="schema:sameAs"/>
 		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
