@@ -43,7 +43,7 @@
 		<meta property="authority" refines="#subject-4">LCSH</meta>
 		<meta property="term" refines="#subject-4">Unknown</meta>
 		<meta property="schema:genre">Nonfiction</meta>
-		<dc:abstract>A young naturalist with multiple sclerosis describes his life and love of nature.</dc:abstract>
+		<meta property="schema:abstract">A young naturalist with multiple sclerosis describes his life and love of nature.</meta>
 		<dc:description>
 			&lt;p&gt;The budding naturalist &lt;a href="https://standardebooks.org/ebooks/w-n-p-barbellion"&gt;W. N. P. Barbellion&lt;/a&gt; begins keeping a journal at the age of thirteen. Curious, enthusiastic, and clever, he lives a happy life punctuated by periods of health problems. As he grows up, he earns recognition as a promising naturalist, but his health scares become more frequent and more severe. He’s eventually diagnosed with a fatal, unnamed illness, which today we know to be multiple sclerosis.&lt;/p&gt;
 			&lt;p&gt;These journals of a dying man capture his frustration at a life of promise being cut short—but they also contain many odes to a life well-lived. His philosophical musings on death, love, beauty, and nature paint a picture of a sensitive young man who managed to fit a full life into his short years.&lt;/p&gt;
