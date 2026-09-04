@@ -30,10 +30,10 @@
 		<meta property="schema:accessibilitySummary">This publication conforms to WCAG 2.2 Level AA.</meta>
 		<dc:title id="title">The Journal of a Disappointed Man</dc:title>
 		<meta property="file-as" refines="#title">Journal of a Disappointed Man, The</meta>
-		<dc:subject id="subject-1">Barbellion, W. N. P., 1889-1919 -- Diaries</dc:subject>
-		<dc:subject id="subject-2">Authors, English -- 20th century -- Diaries</dc:subject>
-		<dc:subject id="subject-3">Naturalists -- Great Britain -- Diaries</dc:subject>
-		<dc:subject id="subject-4">Multiple sclerosis -- Patients -- Diaries</dc:subject>
+		<dc:subject id="subject-1">Barbellion, W. N. P., 1889-1919--Diaries</dc:subject>
+		<dc:subject id="subject-2">Authors, English--20th century--Diaries</dc:subject>
+		<dc:subject id="subject-3">Naturalists--Great Britain--Diaries</dc:subject>
+		<dc:subject id="subject-4">Multiple sclerosis--Patients--Diaries</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
 		<meta property="term" refines="#subject-1">Unknown</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
